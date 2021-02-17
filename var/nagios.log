@@ -1,0 +1,108 @@
+[1613561467] Nagios 4.4.6 starting... (PID=25)
+[1613561467] Local time is Wed Feb 17 11:31:07 UTC 2021
+[1613561467] LOG VERSION: 2.0
+[1613561467] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613561467] qh: core query handler registered
+[1613561467] qh: echo service query handler registered
+[1613561467] qh: help for the query handler registered
+[1613561467] wproc: Successfully registered manager as @wproc with query handler
+[1613561467] wproc: Registry request: name=Core Worker 50;pid=50
+[1613561467] wproc: Registry request: name=Core Worker 48;pid=48
+[1613561467] wproc: Registry request: name=Core Worker 49;pid=49
+[1613561467] wproc: Registry request: name=Core Worker 47;pid=47
+[1613561467] Successfully launched command file worker with pid 56
+[1613561579] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 401 Unauthorized - 691 bytes in 0.000 second response time
+[1613561639] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;2;HTTP WARNING: HTTP/1.1 401 Unauthorized - 691 bytes in 0.002 second response time
+[1613561647] Caught SIGTERM, shutting down...
+[1613561647] Successfully shutdown... (PID=25)
+[1613561650] Nagios 4.4.6 starting... (PID=18)
+[1613561650] Local time is Wed Feb 17 11:34:10 UTC 2021
+[1613561650] LOG VERSION: 2.0
+[1613561650] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613561650] qh: core query handler registered
+[1613561650] qh: echo service query handler registered
+[1613561650] qh: help for the query handler registered
+[1613561650] wproc: Successfully registered manager as @wproc with query handler
+[1613561650] wproc: Registry request: name=Core Worker 23;pid=23
+[1613561650] wproc: Registry request: name=Core Worker 24;pid=24
+[1613561650] wproc: Registry request: name=Core Worker 25;pid=25
+[1613561650] wproc: Registry request: name=Core Worker 22;pid=22
+[1613561650] Successfully launched command file worker with pid 31
+[1613561692] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;1;connect to address 127.0.0.1 and port 22: Connection refused
+[1613561699] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;3;HTTP WARNING: HTTP/1.1 401 Unauthorized - 691 bytes in 0.001 second response time
+[1613561729] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;1;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613561752] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;2;connect to address 127.0.0.1 and port 22: Connection refused
+[1613561759] SERVICE ALERT: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 401 Unauthorized - 691 bytes in 0.001 second response time
+[1613561789] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613561812] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;3;connect to address 127.0.0.1 and port 22: Connection refused
+[1613561830] Caught SIGTERM, shutting down...
+[1613561830] Successfully shutdown... (PID=18)
+[1613561833] Nagios 4.4.6 starting... (PID=20)
+[1613561833] Local time is Wed Feb 17 11:37:13 UTC 2021
+[1613561833] LOG VERSION: 2.0
+[1613561833] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613561833] qh: core query handler registered
+[1613561833] qh: echo service query handler registered
+[1613561833] qh: help for the query handler registered
+[1613561833] wproc: Successfully registered manager as @wproc with query handler
+[1613561833] wproc: Registry request: name=Core Worker 27;pid=27
+[1613561833] wproc: Registry request: name=Core Worker 26;pid=26
+[1613561833] wproc: Registry request: name=Core Worker 25;pid=25
+[1613561833] wproc: Registry request: name=Core Worker 24;pid=24
+[1613561833] Successfully launched command file worker with pid 34
+[1613561849] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;3;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613561872] SERVICE ALERT: localhost;SSH;CRITICAL;HARD;4;connect to address 127.0.0.1 and port 22: Connection refused
+[1613561909] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613561909] SERVICE ALERT: localhost;Swap Usage;CRITICAL;HARD;4;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613561909] wproc: NOTIFY job 1 from worker Core Worker 27 is a non-check helper but exited with return code 1
+[1613561909] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1613561909] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613561909] wproc:   stderr line 01: [<-] 220 smtp.gmail.com ESMTP l38sm2443526wmp.19 - gsmtp
+[1613561909] wproc:   stderr line 02: [->] EHLO raspberrypi
+[1613561909] wproc:   stderr line 03: [<-] 250 SMTPUTF8
+[1613561909] wproc:   stderr line 04: [->] STARTTLS
+[1613561909] wproc:   stderr line 05: [<-] 220 2.0.0 Ready to start TLS
+[1613561909] wproc:   stderr line 06: [->] EHLO raspberrypi
+[1613561909] wproc:   stderr line 07: [<-] 250 SMTPUTF8
+[1613561909] wproc:   stderr line 08: [->] AUTH LOGIN
+[1613561909] wproc:   stderr line 09: [<-] 334 VXNlcm5hbWU6
+[1613561909] wproc:   stderr line 10: [->] bXlnbWFpbGFjY291bnRAZ21haWwuY29t
+[1613561909] wproc:   stderr line 11: [<-] 334 UGFzc3dvcmQ6
+[1613561909] wproc:   stderr line 12: [<-] 535 5.7.8  https://support.google.com/mail/?p=BadCredentials l38sm2443526wmp.19 - gsmtp
+[1613561909] wproc:   stderr line 13: sendmail: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials l38sm2443526wmp.19 - gsmtp)
+[1613562161] Caught SIGTERM, shutting down...
+[1613562161] Successfully shutdown... (PID=20)
+[1613562165] Nagios 4.4.6 starting... (PID=19)
+[1613562165] Local time is Wed Feb 17 11:42:45 UTC 2021
+[1613562165] LOG VERSION: 2.0
+[1613562165] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613562165] qh: core query handler registered
+[1613562165] qh: echo service query handler registered
+[1613562165] qh: help for the query handler registered
+[1613562165] wproc: Successfully registered manager as @wproc with query handler
+[1613562165] wproc: Registry request: name=Core Worker 26;pid=26
+[1613562165] wproc: Registry request: name=Core Worker 27;pid=27
+[1613562165] wproc: Registry request: name=Core Worker 25;pid=25
+[1613562165] wproc: Registry request: name=Core Worker 24;pid=24
+[1613562165] Successfully launched command file worker with pid 33
+[1613565509] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613565539] wproc: NOTIFY job 25 from worker Core Worker 27 is a non-check helper but exited with return code 1
+[1613565539] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1613565539] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613565539] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613565765] Auto-save of retention data completed successfully.
+[1613566197] Caught SIGTERM, shutting down...
+[1613566197] Successfully shutdown... (PID=19)
+[1613566202] Nagios 4.4.6 starting... (PID=18)
+[1613566202] Local time is Wed Feb 17 12:50:02 UTC 2021
+[1613566202] LOG VERSION: 2.0
+[1613566202] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613566202] qh: core query handler registered
+[1613566202] qh: echo service query handler registered
+[1613566202] qh: help for the query handler registered
+[1613566202] wproc: Successfully registered manager as @wproc with query handler
+[1613566202] wproc: Registry request: name=Core Worker 57;pid=57
+[1613566202] wproc: Registry request: name=Core Worker 58;pid=58
+[1613566202] wproc: Registry request: name=Core Worker 56;pid=56
+[1613566202] wproc: Registry request: name=Core Worker 55;pid=55
+[1613566202] Successfully launched command file worker with pid 59
