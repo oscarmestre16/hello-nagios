@@ -3,12 +3,17 @@ services:
   nagios:
     image: manios/nagios:latest     
     volumes:
-      - ./etc/:/opt/nagios/etc/
-      - ./var/:/opt/nagios/var/
-      - ./ssmtp.conf:/etc/ssmtp/ssmtp.conf/
-      - ./custom-plugins:/opt/Custom-Nagios-Plugins/
+      - "./etc/:/opt/nagios/etc/"
+      - "./var/:/opt/nagios/var/"
+      - "./ssmtp.conf:/etc/ssmtp/ssmtp.conf/"
+      - "./custom-plugins:/opt/Custom-Nagios-Plugins/"
     ports:
       - "8080:80"
     environment:
+      TZ: "Europe/Madrid"
       NAGIOSADMIN_USER: nagiosadmin 
       NAGIOSADMIN_PASS: nagios 
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "9025:8025"

@@ -106,3 +106,428 @@
 [1613566202] wproc: Registry request: name=Core Worker 56;pid=56
 [1613566202] wproc: Registry request: name=Core Worker 55;pid=55
 [1613566202] Successfully launched command file worker with pid 59
+[1613567504] SERVICE ALERT: localhost;Current Load;CRITICAL;SOFT;1;CRITICAL - load average: 16.05, 6.36, 3.15
+[1613567564] SERVICE ALERT: localhost;Current Load;CRITICAL;SOFT;2;CRITICAL - load average: 15.04, 7.72, 3.82
+[1613567624] SERVICE ALERT: localhost;Current Load;CRITICAL;SOFT;3;CRITICAL - load average: 13.31, 8.89, 4.49
+[1613567684] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Load;CRITICAL;notify-service-by-email;CRITICAL - load average: 5.44, 7.47, 4.27
+[1613567684] SERVICE ALERT: localhost;Current Load;CRITICAL;HARD;4;CRITICAL - load average: 5.44, 7.47, 4.27
+[1613567689] wproc: NOTIFY job 12 from worker Core Worker 58 is a non-check helper but exited with return code 1
+[1613567689] wproc:   host=localhost; service=Current Load; contact=nagiosadmin
+[1613567689] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613567689] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613567984] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Load;WARNING;notify-service-by-email;WARNING - load average: 0.70, 3.10, 3.24
+[1613567984] SERVICE ALERT: localhost;Current Load;WARNING;HARD;4;WARNING - load average: 0.70, 3.10, 3.24
+[1613567989] wproc: NOTIFY job 14 from worker Core Worker 55 is a non-check helper but exited with return code 1
+[1613567989] wproc:   host=localhost; service=Current Load; contact=nagiosadmin
+[1613567989] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613567989] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613568284] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Load;OK;notify-service-by-email;OK - load average: 1.10, 1.64, 2.55
+[1613568284] SERVICE ALERT: localhost;Current Load;OK;HARD;4;OK - load average: 1.10, 1.64, 2.55
+[1613568289] wproc: NOTIFY job 17 from worker Core Worker 56 is a non-check helper but exited with return code 1
+[1613568289] wproc:   host=localhost; service=Current Load; contact=nagiosadmin
+[1613568289] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613568289] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613569109] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613569114] wproc: NOTIFY job 23 from worker Core Worker 56 is a non-check helper but exited with return code 1
+[1613569114] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1613569114] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613569114] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613569802] Auto-save of retention data completed successfully.
+[1613570449] Caught SIGTERM, shutting down...
+[1613570449] Successfully shutdown... (PID=18)
+[1613570453] Nagios 4.4.6 starting... (PID=22)
+[1613570453] Local time is Wed Feb 17 15:00:53 CET 2021
+[1613570453] LOG VERSION: 2.0
+[1613570453] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613570453] qh: core query handler registered
+[1613570453] qh: echo service query handler registered
+[1613570453] qh: help for the query handler registered
+[1613570453] wproc: Successfully registered manager as @wproc with query handler
+[1613570453] wproc: Registry request: name=Core Worker 27;pid=27
+[1613570453] wproc: Registry request: name=Core Worker 26;pid=26
+[1613570453] wproc: Registry request: name=Core Worker 29;pid=29
+[1613570453] wproc: Registry request: name=Core Worker 28;pid=28
+[1613570453] Successfully launched command file worker with pid 37
+[1613571069] Caught SIGTERM, shutting down...
+[1613571069] Successfully shutdown... (PID=22)
+[1613571072] Nagios 4.4.6 starting... (PID=25)
+[1613571072] Local time is Wed Feb 17 15:11:12 CET 2021
+[1613571072] LOG VERSION: 2.0
+[1613571072] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613571072] qh: core query handler registered
+[1613571072] qh: echo service query handler registered
+[1613571072] qh: help for the query handler registered
+[1613571072] wproc: Successfully registered manager as @wproc with query handler
+[1613571072] wproc: Registry request: name=Core Worker 29;pid=29
+[1613571072] wproc: Registry request: name=Core Worker 30;pid=30
+[1613571072] wproc: Registry request: name=Core Worker 32;pid=32
+[1613571072] wproc: Registry request: name=Core Worker 31;pid=31
+[1613571072] Successfully launched command file worker with pid 33
+[1613572477] Caught SIGTERM, shutting down...
+[1613572477] Successfully shutdown... (PID=25)
+[1613572479] Nagios 4.4.6 starting... (PID=26)
+[1613572479] Local time is Wed Feb 17 15:34:39 CET 2021
+[1613572479] LOG VERSION: 2.0
+[1613572479] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613572479] qh: core query handler registered
+[1613572479] qh: echo service query handler registered
+[1613572479] qh: help for the query handler registered
+[1613572479] wproc: Successfully registered manager as @wproc with query handler
+[1613572479] wproc: Registry request: name=Core Worker 34;pid=34
+[1613572479] wproc: Registry request: name=Core Worker 33;pid=33
+[1613572479] wproc: Registry request: name=Core Worker 32;pid=32
+[1613572479] wproc: Registry request: name=Core Worker 31;pid=31
+[1613572479] Successfully launched command file worker with pid 36
+[1613572709] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613572714] wproc: NOTIFY job 2 from worker Core Worker 34 is a non-check helper but exited with return code 1
+[1613572714] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1613572714] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613572714] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613573642] Caught SIGTERM, shutting down...
+[1613573642] Successfully shutdown... (PID=26)
+[1613573645] Nagios 4.4.6 starting... (PID=24)
+[1613573645] Local time is Wed Feb 17 15:54:05 CET 2021
+[1613573645] LOG VERSION: 2.0
+[1613573645] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613573645] qh: core query handler registered
+[1613573645] qh: echo service query handler registered
+[1613573645] qh: help for the query handler registered
+[1613573645] wproc: Successfully registered manager as @wproc with query handler
+[1613573645] wproc: Registry request: name=Core Worker 60;pid=60
+[1613573645] wproc: Registry request: name=Core Worker 62;pid=62
+[1613573645] wproc: Registry request: name=Core Worker 61;pid=61
+[1613573645] wproc: Registry request: name=Core Worker 59;pid=59
+[1613573645] Successfully launched command file worker with pid 68
+[1613573714] SERVICE ALERT: viewnext112;HTTP;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 401 Unauthorized - 691 bytes in 0.000 second response time
+[1613573783] SERVICE ALERT: viewnext112;Jenkins;CRITICAL;SOFT;1;connect to address 127.0.0.1 and port 9080: Connection refused
+[1613573834] SERVICE ALERT: viewnext112;HTTP;WARNING;SOFT;2;HTTP WARNING: HTTP/1.1 401 Unauthorized - 691 bytes in 0.001 second response time
+[1613573853] SERVICE ALERT: viewnext112;ssh;CRITICAL;SOFT;1;connect to address 127.0.0.1 and port 22: Connection refused
+[1613573903] SERVICE ALERT: viewnext112;Jenkins;CRITICAL;SOFT;2;connect to address 127.0.0.1 and port 9080: Connection refused
+[1613573916] Caught SIGTERM, shutting down...
+[1613573916] Successfully shutdown... (PID=24)
+[1613573919] Nagios 4.4.6 starting... (PID=26)
+[1613573919] Local time is Wed Feb 17 15:58:39 CET 2021
+[1613573919] LOG VERSION: 2.0
+[1613573919] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613573919] qh: core query handler registered
+[1613573919] qh: echo service query handler registered
+[1613573919] qh: help for the query handler registered
+[1613573919] wproc: Successfully registered manager as @wproc with query handler
+[1613573919] wproc: Registry request: name=Core Worker 32;pid=32
+[1613573919] wproc: Registry request: name=Core Worker 31;pid=31
+[1613573919] wproc: Registry request: name=Core Worker 30;pid=30
+[1613573919] wproc: Registry request: name=Core Worker 29;pid=29
+[1613573919] Successfully launched command file worker with pid 33
+[1613573954] SERVICE NOTIFICATION: nagiosadmin;viewnext112;HTTP;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 401 Unauthorized - 691 bytes in 0.001 second response time
+[1613573954] SERVICE ALERT: viewnext112;HTTP;WARNING;HARD;3;HTTP WARNING: HTTP/1.1 401 Unauthorized - 691 bytes in 0.001 second response time
+[1613573959] wproc: NOTIFY job 0 from worker Core Worker 30 is a non-check helper but exited with return code 1
+[1613573959] wproc:   host=viewnext112; service=HTTP; contact=nagiosadmin
+[1613573959] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613573959] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613573973] SERVICE ALERT: viewnext112;ssh;CRITICAL;SOFT;2;connect to address 127.0.0.1 and port 22: Connection refused
+[1613574023] SERVICE NOTIFICATION: nagiosadmin;viewnext112;Jenkins;CRITICAL;notify-service-by-email;connect to address 127.0.0.1 and port 9080: Connection refused
+[1613574023] SERVICE ALERT: viewnext112;Jenkins;CRITICAL;HARD;3;connect to address 127.0.0.1 and port 9080: Connection refused
+[1613574028] wproc: NOTIFY job 2 from worker Core Worker 32 is a non-check helper but exited with return code 1
+[1613574028] wproc:   host=viewnext112; service=Jenkins; contact=nagiosadmin
+[1613574028] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613574028] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613574064] Caught SIGTERM, shutting down...
+[1613574064] Successfully shutdown... (PID=26)
+[1613574067] Nagios 4.4.6 starting... (PID=25)
+[1613574067] Local time is Wed Feb 17 16:01:07 CET 2021
+[1613574067] LOG VERSION: 2.0
+[1613574067] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613574067] qh: core query handler registered
+[1613574067] qh: echo service query handler registered
+[1613574067] qh: help for the query handler registered
+[1613574067] wproc: Successfully registered manager as @wproc with query handler
+[1613574067] wproc: Registry request: name=Core Worker 32;pid=32
+[1613574067] wproc: Registry request: name=Core Worker 30;pid=30
+[1613574067] wproc: Registry request: name=Core Worker 31;pid=31
+[1613574067] wproc: Registry request: name=Core Worker 29;pid=29
+[1613574067] Successfully launched command file worker with pid 33
+[1613574096] SERVICE NOTIFICATION: nagiosadmin;viewnext112;ssh;CRITICAL;notify-service-by-email;connect to address 10.250.12.2 and port 22: Host is unreachable
+[1613574096] SERVICE ALERT: viewnext112;ssh;CRITICAL;HARD;3;connect to address 10.250.12.2 and port 22: Host is unreachable
+[1613574101] wproc: NOTIFY job 0 from worker Core Worker 30 is a non-check helper but exited with return code 1
+[1613574101] wproc:   host=viewnext112; service=ssh; contact=nagiosadmin
+[1613574101] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613574101] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613574167] HOST ALERT: viewnext112;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1613574241] HOST ALERT: viewnext112;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1613574315] HOST ALERT: viewnext112;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1613574355] Caught SIGTERM, shutting down...
+[1613574355] Successfully shutdown... (PID=25)
+[1613574358] Nagios 4.4.6 starting... (PID=25)
+[1613574358] Local time is Wed Feb 17 16:05:58 CET 2021
+[1613574358] LOG VERSION: 2.0
+[1613574358] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613574358] qh: core query handler registered
+[1613574358] qh: echo service query handler registered
+[1613574358] qh: help for the query handler registered
+[1613574358] wproc: Successfully registered manager as @wproc with query handler
+[1613574358] wproc: Registry request: name=Core Worker 30;pid=30
+[1613574358] wproc: Registry request: name=Core Worker 29;pid=29
+[1613574358] wproc: Registry request: name=Core Worker 32;pid=32
+[1613574358] wproc: Registry request: name=Core Worker 31;pid=31
+[1613574358] Successfully launched command file worker with pid 33
+[1613574379] HOST ALERT: viewnext112;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.25 ms
+[1613574555] SERVICE NOTIFICATION: nagiosadmin;viewnext112;HTTP;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 687 bytes in 0.231 second response time
+[1613574555] SERVICE ALERT: viewnext112;HTTP;OK;HARD;3;HTTP OK: HTTP/1.1 200 OK - 687 bytes in 0.231 second response time
+[1613574560] wproc: NOTIFY job 2 from worker Core Worker 30 is a non-check helper but exited with return code 1
+[1613574560] wproc:   host=viewnext112; service=HTTP; contact=nagiosadmin
+[1613574560] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613574560] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613574626] SERVICE NOTIFICATION: nagiosadmin;viewnext112;Jenkins;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 55950 bytes in 2.789 second response time
+[1613574626] SERVICE ALERT: viewnext112;Jenkins;OK;HARD;3;HTTP OK: HTTP/1.1 200 OK - 55950 bytes in 2.789 second response time
+[1613574631] wproc: NOTIFY job 3 from worker Core Worker 29 is a non-check helper but exited with return code 1
+[1613574631] wproc:   host=viewnext112; service=Jenkins; contact=nagiosadmin
+[1613574631] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613574631] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613574696] SERVICE NOTIFICATION: nagiosadmin;viewnext112;ssh;OK;notify-service-by-email;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.3 (protocol 2.0)
+[1613574696] SERVICE ALERT: viewnext112;ssh;OK;HARD;3;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.3 (protocol 2.0)
+[1613574701] wproc: NOTIFY job 4 from worker Core Worker 29 is a non-check helper but exited with return code 1
+[1613574701] wproc:   host=viewnext112; service=ssh; contact=nagiosadmin
+[1613574701] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613574701] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613574780] Caught SIGTERM, shutting down...
+[1613574780] Successfully shutdown... (PID=25)
+[1613574783] Nagios 4.4.6 starting... (PID=23)
+[1613574783] Local time is Wed Feb 17 16:13:03 CET 2021
+[1613574783] LOG VERSION: 2.0
+[1613574783] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613574783] qh: core query handler registered
+[1613574783] qh: echo service query handler registered
+[1613574783] qh: help for the query handler registered
+[1613574783] wproc: Successfully registered manager as @wproc with query handler
+[1613574783] wproc: Registry request: name=Core Worker 30;pid=30
+[1613574783] wproc: Registry request: name=Core Worker 29;pid=29
+[1613574783] wproc: Registry request: name=Core Worker 31;pid=31
+[1613574783] wproc: Registry request: name=Core Worker 28;pid=28
+[1613574783] Successfully launched command file worker with pid 32
+[1613574849] SERVICE ALERT: viewnext112;Gitlab;CRITICAL;SOFT;1;connect to address 10.250.0.2 and port 8929: Connection refused
+[1613574889] EXTERNAL COMMAND: SCHEDULE_HOST_SVC_CHECKS;viewnext112;1613574889
+[1613574889] SERVICE ALERT: viewnext112;Gitlab;CRITICAL;SOFT;2;connect to address 10.250.0.2 and port 8929: Connection refused
+[1613574890] SERVICE ALERT: viewnext112;Jenkins;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 401 Unauthorized - 782 bytes in 0.117 second response time
+[1613575009] SERVICE NOTIFICATION: nagiosadmin;viewnext112;Gitlab;CRITICAL;notify-service-by-email;connect to address 10.250.0.2 and port 8929: Connection refused
+[1613575009] SERVICE ALERT: viewnext112;Gitlab;CRITICAL;HARD;3;connect to address 10.250.0.2 and port 8929: Connection refused
+[1613575010] SERVICE ALERT: viewnext112;Jenkins;WARNING;SOFT;2;HTTP WARNING: HTTP/1.1 401 Unauthorized - 782 bytes in 0.107 second response time
+[1613575014] wproc: NOTIFY job 3 from worker Core Worker 31 is a non-check helper but exited with return code 1
+[1613575014] wproc:   host=viewnext112; service=Gitlab; contact=nagiosadmin
+[1613575014] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613575014] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613575116] Caught SIGTERM, shutting down...
+[1613575116] Successfully shutdown... (PID=23)
+[1613575118] Nagios 4.4.6 starting... (PID=25)
+[1613575118] Local time is Wed Feb 17 16:18:38 CET 2021
+[1613575118] LOG VERSION: 2.0
+[1613575118] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613575118] qh: core query handler registered
+[1613575118] qh: echo service query handler registered
+[1613575118] qh: help for the query handler registered
+[1613575118] wproc: Successfully registered manager as @wproc with query handler
+[1613575118] wproc: Registry request: name=Core Worker 32;pid=32
+[1613575118] wproc: Registry request: name=Core Worker 30;pid=30
+[1613575118] wproc: Registry request: name=Core Worker 31;pid=31
+[1613575118] wproc: Registry request: name=Core Worker 29;pid=29
+[1613575118] Successfully launched command file worker with pid 33
+[1613575188] SERVICE NOTIFICATION: nagiosadmin;viewnext112;Jenkins;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 401 Unauthorized - 782 bytes in 0.109 second response time
+[1613575188] SERVICE ALERT: viewnext112;Jenkins;WARNING;HARD;3;HTTP WARNING: HTTP/1.1 401 Unauthorized - 782 bytes in 0.109 second response time
+[1613575193] wproc: NOTIFY job 1 from worker Core Worker 30 is a non-check helper but exited with return code 1
+[1613575193] wproc:   host=viewnext112; service=Jenkins; contact=nagiosadmin
+[1613575193] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613575193] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613575458] Caught SIGTERM, shutting down...
+[1613575458] Successfully shutdown... (PID=25)
+[1613575462] Nagios 4.4.6 starting... (PID=24)
+[1613575462] Local time is Wed Feb 17 16:24:22 CET 2021
+[1613575462] LOG VERSION: 2.0
+[1613575462] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613575462] qh: core query handler registered
+[1613575462] qh: echo service query handler registered
+[1613575462] qh: help for the query handler registered
+[1613575462] wproc: Successfully registered manager as @wproc with query handler
+[1613575462] wproc: Registry request: name=Core Worker 32;pid=32
+[1613575462] wproc: Registry request: name=Core Worker 31;pid=31
+[1613575462] wproc: Registry request: name=Core Worker 30;pid=30
+[1613575462] wproc: Registry request: name=Core Worker 29;pid=29
+[1613575462] Successfully launched command file worker with pid 33
+[1613575476] EXTERNAL COMMAND: SCHEDULE_HOST_SVC_CHECKS;viewnext112;1613575476
+[1613575603] Caught SIGTERM, shutting down...
+[1613575603] Successfully shutdown... (PID=24)
+[1613575606] Nagios 4.4.6 starting... (PID=25)
+[1613575606] Local time is Wed Feb 17 16:26:46 CET 2021
+[1613575606] LOG VERSION: 2.0
+[1613575606] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613575606] qh: core query handler registered
+[1613575606] qh: echo service query handler registered
+[1613575606] qh: help for the query handler registered
+[1613575606] wproc: Successfully registered manager as @wproc with query handler
+[1613575606] wproc: Registry request: name=Core Worker 32;pid=32
+[1613575606] wproc: Registry request: name=Core Worker 29;pid=29
+[1613575606] wproc: Registry request: name=Core Worker 31;pid=31
+[1613575606] wproc: Registry request: name=Core Worker 30;pid=30
+[1613575606] Successfully launched command file worker with pid 33
+[1613575954] Caught SIGTERM, shutting down...
+[1613575954] Successfully shutdown... (PID=25)
+[1613575956] Nagios 4.4.6 starting... (PID=25)
+[1613575956] Local time is Wed Feb 17 16:32:36 CET 2021
+[1613575956] LOG VERSION: 2.0
+[1613575956] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613575956] qh: core query handler registered
+[1613575956] qh: echo service query handler registered
+[1613575956] qh: help for the query handler registered
+[1613575956] wproc: Successfully registered manager as @wproc with query handler
+[1613575956] wproc: Registry request: name=Core Worker 32;pid=32
+[1613575956] wproc: Registry request: name=Core Worker 33;pid=33
+[1613575956] wproc: Registry request: name=Core Worker 31;pid=31
+[1613575956] wproc: Registry request: name=Core Worker 30;pid=30
+[1613575956] Warning: Duplicate definition found for service 'Jenkins' on host 'viewnext112' (config file '/opt/nagios/etc/servers/viewnext112.cfg', starting on line 31)
+[1613575956] Successfully launched command file worker with pid 34
+[1613576034] Caught SIGTERM, shutting down...
+[1613576034] Successfully shutdown... (PID=25)
+[1613576037] Nagios 4.4.6 starting... (PID=24)
+[1613576037] Local time is Wed Feb 17 16:33:57 CET 2021
+[1613576037] LOG VERSION: 2.0
+[1613576037] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613576037] qh: core query handler registered
+[1613576037] qh: echo service query handler registered
+[1613576037] qh: help for the query handler registered
+[1613576037] wproc: Successfully registered manager as @wproc with query handler
+[1613576037] wproc: Registry request: name=Core Worker 29;pid=29
+[1613576037] wproc: Registry request: name=Core Worker 30;pid=30
+[1613576037] wproc: Registry request: name=Core Worker 31;pid=31
+[1613576037] wproc: Registry request: name=Core Worker 32;pid=32
+[1613576037] Successfully launched command file worker with pid 33
+[1613576078] EXTERNAL COMMAND: SCHEDULE_HOST_SVC_CHECKS;viewnext112;1613576078
+[1613576079] SERVICE ALERT: viewnext112;HTTP;CRITICAL;SOFT;1;connect to address 10.250.12.2 and port 80: Host is unreachable
+[1613576079] SERVICE FLAPPING ALERT: viewnext112;Jenkins;STARTED; Service appears to have started flapping (23.8% change >= 20.0% threshold)
+[1613576079] SERVICE ALERT: viewnext112;Jenkins;CRITICAL;HARD;3;connect to address 10.250.12.2 and port 9080: Host is unreachable
+[1613576079] SERVICE ALERT: viewnext112;ssh;CRITICAL;SOFT;1;connect to address 10.250.12.2 and port 22: Host is unreachable
+[1613576079] SERVICE ALERT: viewnext112;Gitlab;CRITICAL;SOFT;1;connect to address 10.250.12.2 and port 8929: Host is unreachable
+[1613576079] SERVICE ALERT: viewnext112;ssh;CRITICAL;SOFT;2;connect to address 10.250.12.2 and port 22: Host is unreachable
+[1613576079] SERVICE ALERT: viewnext112;HTTP;CRITICAL;SOFT;2;connect to address 10.250.12.2 and port 80: Host is unreachable
+[1613576093] HOST ALERT: viewnext112;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1613576167] HOST ALERT: viewnext112;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1613576202] SERVICE ALERT: viewnext112;HTTP;CRITICAL;HARD;3;connect to address 10.250.12.2 and port 80: Host is unreachable
+[1613576202] SERVICE ALERT: viewnext112;ssh;CRITICAL;HARD;3;connect to address 10.250.12.2 and port 22: Host is unreachable
+[1613576202] SERVICE ALERT: viewnext112;Gitlab;CRITICAL;HARD;3;connect to address 10.250.12.2 and port 8929: Host is unreachable
+[1613576241] HOST ALERT: viewnext112;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1613576248] Caught SIGTERM, shutting down...
+[1613576248] Successfully shutdown... (PID=24)
+[1613576252] Nagios 4.4.6 starting... (PID=23)
+[1613576252] Local time is Wed Feb 17 16:37:32 CET 2021
+[1613576252] LOG VERSION: 2.0
+[1613576252] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613576252] qh: core query handler registered
+[1613576252] qh: echo service query handler registered
+[1613576252] qh: help for the query handler registered
+[1613576252] wproc: Successfully registered manager as @wproc with query handler
+[1613576252] wproc: Registry request: name=Core Worker 31;pid=31
+[1613576252] wproc: Registry request: name=Core Worker 30;pid=30
+[1613576252] wproc: Registry request: name=Core Worker 29;pid=29
+[1613576252] wproc: Registry request: name=Core Worker 28;pid=28
+[1613576252] SERVICE FLAPPING ALERT: viewnext112;Jenkins;STARTED; Service appears to have started flapping (23.3% change >= 20.0% threshold)
+[1613576252] Successfully launched command file worker with pid 33
+[1613576276] EXTERNAL COMMAND: SCHEDULE_HOST_SVC_CHECKS;viewnext112;1613576276
+[1613576276] SERVICE ALERT: viewnext112;Jenkins;WARNING;HARD;3;HTTP WARNING: HTTP/1.1 403 Forbidden - 1531 bytes in 0.010 second response time
+[1613576276] SERVICE FLAPPING ALERT: viewnext112;HTTP;STARTED; Service appears to have started flapping (23.7% change >= 20.0% threshold)
+[1613576276] SERVICE ALERT: viewnext112;HTTP;OK;HARD;3;HTTP OK: HTTP/1.1 200 OK - 644 bytes in 0.004 second response time
+[1613576276] SERVICE FLAPPING ALERT: viewnext112;ssh;STARTED; Service appears to have started flapping (23.7% change >= 20.0% threshold)
+[1613576276] SERVICE ALERT: viewnext112;ssh;OK;HARD;3;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.3 (protocol 2.0)
+[1613576280] HOST ALERT: viewnext112;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.38 ms
+[1613576309] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613576314] wproc: NOTIFY job 1 from worker Core Worker 28 is a non-check helper but exited with return code 1
+[1613576314] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1613576314] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613576314] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613576404] Caught SIGTERM, shutting down...
+[1613576404] Successfully shutdown... (PID=23)
+[1613576406] Nagios 4.4.6 starting... (PID=25)
+[1613576406] Local time is Wed Feb 17 16:40:06 CET 2021
+[1613576406] LOG VERSION: 2.0
+[1613576406] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613576406] qh: core query handler registered
+[1613576406] qh: echo service query handler registered
+[1613576406] qh: help for the query handler registered
+[1613576406] wproc: Successfully registered manager as @wproc with query handler
+[1613576406] wproc: Registry request: name=Core Worker 29;pid=29
+[1613576406] wproc: Registry request: name=Core Worker 30;pid=30
+[1613576406] wproc: Registry request: name=Core Worker 31;pid=31
+[1613576406] wproc: Registry request: name=Core Worker 28;pid=28
+[1613576406] SERVICE FLAPPING ALERT: viewnext112;HTTP;STARTED; Service appears to have started flapping (23.7% change >= 20.0% threshold)
+[1613576406] SERVICE FLAPPING ALERT: viewnext112;Jenkins;STARTED; Service appears to have started flapping (29.0% change >= 20.0% threshold)
+[1613576406] SERVICE FLAPPING ALERT: viewnext112;ssh;STARTED; Service appears to have started flapping (23.7% change >= 20.0% threshold)
+[1613576406] Successfully launched command file worker with pid 39
+[1613576439] EXTERNAL COMMAND: SCHEDULE_HOST_SVC_CHECKS;viewnext112;1613576439
+[1613576439] SERVICE NOTIFICATION: nagiosadmin;viewnext112;Gitlab;CRITICAL;notify-service-by-email;connect to address 10.250.0.2 and port 8929: Connection refused
+[1613576444] wproc: NOTIFY job 1 from worker Core Worker 29 is a non-check helper but exited with return code 1
+[1613576444] wproc:   host=viewnext112; service=Gitlab; contact=nagiosadmin
+[1613576444] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613576444] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613576518] Caught SIGTERM, shutting down...
+[1613576518] Successfully shutdown... (PID=25)
+[1613576521] Nagios 4.4.6 starting... (PID=23)
+[1613576521] Local time is Wed Feb 17 16:42:01 CET 2021
+[1613576521] LOG VERSION: 2.0
+[1613576521] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613576521] qh: core query handler registered
+[1613576521] qh: echo service query handler registered
+[1613576521] qh: help for the query handler registered
+[1613576521] wproc: Successfully registered manager as @wproc with query handler
+[1613576521] wproc: Registry request: name=Core Worker 31;pid=31
+[1613576521] wproc: Registry request: name=Core Worker 30;pid=30
+[1613576521] wproc: Registry request: name=Core Worker 29;pid=29
+[1613576521] wproc: Registry request: name=Core Worker 28;pid=28
+[1613576521] SERVICE FLAPPING ALERT: viewnext112;HTTP;STARTED; Service appears to have started flapping (23.2% change >= 20.0% threshold)
+[1613576521] SERVICE FLAPPING ALERT: viewnext112;Jenkins;STARTED; Service appears to have started flapping (28.4% change >= 20.0% threshold)
+[1613576521] SERVICE FLAPPING ALERT: viewnext112;ssh;STARTED; Service appears to have started flapping (23.2% change >= 20.0% threshold)
+[1613576521] Successfully launched command file worker with pid 38
+[1613576552] EXTERNAL COMMAND: SCHEDULE_HOST_SVC_CHECKS;viewnext112;1613576552
+[1613576555] SERVICE ALERT: viewnext112;Jenkins;CRITICAL;HARD;3;connect to address 10.250.12.2 and port 9080: Host is unreachable
+[1613576555] SERVICE ALERT: viewnext112;HTTP;CRITICAL;SOFT;1;connect to address 10.250.12.2 and port 80: Host is unreachable
+[1613576555] SERVICE ALERT: viewnext112;ssh;CRITICAL;SOFT;1;connect to address 10.250.12.2 and port 22: Host is unreachable
+[1613576569] HOST ALERT: viewnext112;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1613576624] Caught SIGTERM, shutting down...
+[1613576624] Successfully shutdown... (PID=23)
+[1613576627] Nagios 4.4.6 starting... (PID=25)
+[1613576627] Local time is Wed Feb 17 16:43:47 CET 2021
+[1613576627] LOG VERSION: 2.0
+[1613576627] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613576627] qh: core query handler registered
+[1613576627] qh: echo service query handler registered
+[1613576627] qh: help for the query handler registered
+[1613576627] wproc: Successfully registered manager as @wproc with query handler
+[1613576627] wproc: Registry request: name=Core Worker 31;pid=31
+[1613576627] wproc: Registry request: name=Core Worker 32;pid=32
+[1613576627] wproc: Registry request: name=Core Worker 30;pid=30
+[1613576627] wproc: Registry request: name=Core Worker 29;pid=29
+[1613576627] SERVICE FLAPPING ALERT: viewnext112;Jenkins;STARTED; Service appears to have started flapping (33.9% change >= 20.0% threshold)
+[1613576627] Successfully launched command file worker with pid 34
+[1613576633] HOST ALERT: viewnext112;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.22 ms
+[1613576642] EXTERNAL COMMAND: SCHEDULE_HOST_SVC_CHECKS;viewnext112;1613576642
+[1613576642] SERVICE FLAPPING ALERT: viewnext112;ssh;STARTED; Service appears to have started flapping (22.6% change >= 20.0% threshold)
+[1613576642] SERVICE ALERT: viewnext112;ssh;OK;SOFT;2;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.3 (protocol 2.0)
+[1613576642] SERVICE FLAPPING ALERT: viewnext112;HTTP;STARTED; Service appears to have started flapping (22.6% change >= 20.0% threshold)
+[1613576642] SERVICE ALERT: viewnext112;HTTP;OK;SOFT;2;HTTP OK: HTTP/1.1 200 OK - 687 bytes in 0.001 second response time
+[1613576642] SERVICE NOTIFICATION: nagiosadmin;viewnext112;Gitlab;OK;notify-service-by-email;HTTP OK: HTTP/1.1 302 Found - 1030 bytes in 0.256 second response time
+[1613576642] SERVICE ALERT: viewnext112;Gitlab;OK;HARD;3;HTTP OK: HTTP/1.1 302 Found - 1030 bytes in 0.256 second response time
+[1613576643] SERVICE ALERT: viewnext112;Jenkins;OK;HARD;3;HTTP OK: HTTP/1.1 200 OK - 53497 bytes in 0.740 second response time
+[1613576647] wproc: NOTIFY job 1 from worker Core Worker 32 is a non-check helper but exited with return code 1
+[1613576647] wproc:   host=viewnext112; service=Gitlab; contact=nagiosadmin
+[1613576647] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613576647] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613579909] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613579914] wproc: NOTIFY job 34 from worker Core Worker 31 is a non-check helper but exited with return code 1
+[1613579914] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1613579914] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613579914] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
+[1613580227] Auto-save of retention data completed successfully.
+[1613580586] SERVICE ALERT: localhost;Current Load;CRITICAL;SOFT;1;CRITICAL - load average: 11.15, 5.92, 3.19
+[1613580646] SERVICE ALERT: localhost;Current Load;CRITICAL;SOFT;2;CRITICAL - load average: 12.99, 7.19, 3.79
+[1613580706] SERVICE ALERT: localhost;Current Load;CRITICAL;SOFT;3;CRITICAL - load average: 14.37, 8.88, 4.60
+[1613580767] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Load;CRITICAL;notify-service-by-email;CRITICAL - load average: 12.64, 9.34, 5.03
+[1613580767] SERVICE ALERT: localhost;Current Load;CRITICAL;HARD;4;CRITICAL - load average: 12.64, 9.34, 5.03
+[1613580772] wproc: NOTIFY job 43 from worker Core Worker 31 is a non-check helper but exited with return code 1
+[1613580772] wproc:   host=localhost; service=Current Load; contact=nagiosadmin
+[1613580772] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613580772] wproc:   stderr line 01: sendmail: Cannot open mailhub:25
